@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="DOCUMENT">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="CUSTOMER">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="NAME">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="LAST_NAME" type="xsd:string"/>
+                                        <xsd:element name="FIRST_NAME" type="xsd:string"/>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="DATE" type="xsd:date"/>
+                            <xsd:element name="ORDERS" >
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="ITEM" minOccurs="0" maxOccurs="unbounded">
+                                        <xsd:complexType>
+                                            <xsd:sequence>
+                                                <xsd:element name="PRODUCT">
+                                                    <xsd:complexType>
+                                                        <xsd:sequence>
+                                                            <xsd:element name="PRODUCT_ID"  type="xsd:integer"/>
+                                                        </xsd:sequence>
+                                                    </xsd:complexType>
+                                                </xsd:element>
+                                                <xsd:element name="NUMBER" type="xsd:integer"/>
+                                                <xsd:element name="PRICE" type="xsd:integer"/>
+                                            </xsd:sequence>
+                                        </xsd:complexType>
+                                    </xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

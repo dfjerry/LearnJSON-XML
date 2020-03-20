@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Mail SYSTEM "Mail.dtd">
+<!--Tuân thủ giống trong file Mail.dtd-->
+<Mail>
+    <To>anne@xyz.com</To>
+    <To>anne@xyz.com</To>
+    <From>bob@xyz.com</From>
+    <Date>27th Februarary 2019</Date>
+    <Time>11h30pm</Time>
+    <Cc/>
+<!--<Bcc/> chi dc Cc hoac Bcc-->
+    <Subject>Meeting at Main Conference</Subject>
+    <Message></Message>
+    <Singnature/>
+    <Files>
+        <Source>https://</Source>
+        <FileName>file dinh kem</FileName>
+    </Files>
+</Mail>

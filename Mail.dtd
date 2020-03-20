@@ -1,0 +1,13 @@
+<!ELEMENT Mail (To+, From, Date, Time, (Cc | Bcc), Subject, Message, Singnature?, Files* )>
+        <!ELEMENT To (#PCDATA)>
+        <!ELEMENT From (#PCDATA)>
+        <!ELEMENT Date (#PCDATA)>
+        <!ELEMENT Time (#PCDATA)>
+        <!ELEMENT Cc (#PCDATA)>
+        <!ELEMENT Bcc (#PCDATA)>
+        <!ELEMENT Subject (#PCDATA)>
+        <!ELEMENT Message (#PCDATA)>
+        <!ELEMENT Singnature (#PCDATA)>
+        <!ELEMENT Files (Source, FileName) >
+        <!ELEMENT Source (#PCDATA)>
+        <!ELEMENT FileName (#PCDATA)>

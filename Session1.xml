@@ -1,0 +1,8 @@
+<?xml vesion="1.0.0" encoding="utf-8"?><!--khai bao tai lieu-->
+<Student>   <!--root element-->
+    <name>Nguyễn Thanh Tuấn</name>
+    <age>18</age>
+    <address>Hà Nội</address>
+    <telephone>098888888888</telephone>
+    <title></title>
+</Student>

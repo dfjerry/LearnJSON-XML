@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE DOCUMENT SYSTEM "DTD-Example.dtd">-->
+<DOCUMENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Document.xsd">
+    <CUSTOMER>
+        <NAME>
+            <LAST_NAME>aaa</LAST_NAME>
+            <FIRST_NAME>bbb</FIRST_NAME>
+        </NAME>
+        <DATE>2020-03-20</DATE>
+        <ORDERS>
+            <ITEM>
+                <PRODUCT>
+                    <PRODUCT_ID>12</PRODUCT_ID>
+                </PRODUCT>
+                <NUMBER>24</NUMBER>
+                <PRICE>20</PRICE>
+            </ITEM>
+            <ITEM>
+                <PRODUCT>
+                    <PRODUCT_ID>12</PRODUCT_ID>
+                </PRODUCT>
+                <NUMBER>24</NUMBER>
+                <PRICE>12</PRICE>
+            </ITEM>
+        </ORDERS>
+    </CUSTOMER>
+</DOCUMENT>

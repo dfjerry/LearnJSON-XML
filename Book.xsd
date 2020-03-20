@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="Book">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Title" type="xsd:string"/>
+                <xsd:element name="Author" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
+                <xsd:element name="Theme" type="xsd:string"/>
+                <xsd:element name="Publicsher">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:pattern value="yes|no"/>  <!--chi yes hoac no-->
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="ISBN">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:integer">
+                            <xsd:minInclusive value="10"/> <!-- chon 10 den 20-->
+                            <xsd:maxInclusive value="20"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="Price">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="basePrice" type="xsd:string"/>
+                            <xsd:element name="finalPrice" type="xsd:string"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="Edition" type="xsd:string"/>
+                <xsd:element name="Password" type="PasswordType"/>
+                <!-- them type vao va dinh nghia o duoi se clean code hon-->
+                <xsd:element name="ConfirmPassword" type="PasswordType"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <!-- Dinh nghia 1 kieu du lieu va phai dat trong schema -->
+    <xsd:simpleType name="PasswordType">
+        <xsd:restriction base="xsd:string">
+            <xsd:minLength value="6"/>
+            <xsd:maxLength value="100"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>
+
+<!--
+xsd:string
+xsd:decima   số thực
+xsd:integer
+xsd:boolean
+xsd:date 2020-03-20
+xsd:time 10:33:00
+-->

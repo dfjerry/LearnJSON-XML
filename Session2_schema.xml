@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Book.xsd">
+    <Title>Path to paradise</Title>
+    <Author>David white</Author>
+    <Author>David white</Author>
+    <Author>David white</Author>
+    <Theme>Philosophy</Theme>
+    <Publicsher>yes</Publicsher>
+    <ISBN>15</ISBN>
+    <Price>
+        <basePrice>$10</basePrice>
+        <finalPrice>$8</finalPrice>
+    </Price>
+    <Edition>June 2000</Edition>
+    <Password>123456</Password>
+    <ConfirmPassword>1234566</ConfirmPassword>
+</Book>
