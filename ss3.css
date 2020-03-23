@@ -1,0 +1,34 @@
+#name{
+    text-transform: uppercase;
+}
+#tr{
+    border-bottom: 1px solid #cccccc;
+}
+#th{
+    background-color: #dddddd;
+}
+.img{
+    margin: 10px 0 20px 0;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #cccccc;
+    padding: 20px 20px 20px 20px;
+}
+.content, .shipping{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+body{
+    padding: 10px;
+}
+.table{
+    padding: 20px 20px 20px 20px;
+}
+#total{
+    float: right;
+    margin-right: 245px;
+    font-weight: bold;
+}

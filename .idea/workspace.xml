@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec41cab5-4899-44ce-b810-2bf9a251426f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assigment2.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session3.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assigment2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assigment2.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="XSLT Stylesheet" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -25,9 +28,11 @@
   </component>
   <component name="ProjectId" id="1ZHX3s0bJwmeRxtK8X3S6CYto0e" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/LearnCodersX2020/MasterCSS/25-demo-zingmp3/index.html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,7 +65,10 @@
       <workItem from="1584496798115" duration="4855000" />
       <workItem from="1584625888336" duration="1351000" />
       <workItem from="1584668357783" duration="10480000" />
-      <workItem from="1584680119114" duration="500000" />
+      <workItem from="1584680119114" duration="578000" />
+      <workItem from="1584680748545" duration="81000" />
+      <workItem from="1584709249048" duration="49000" />
+      <workItem from="1584927644069" duration="13634000" />
     </task>
     <servers />
   </component>
@@ -72,7 +80,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
