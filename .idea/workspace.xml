@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec41cab5-4899-44ce-b810-2bf9a251426f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Session3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session3.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sessin43.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session41.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session42.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session42.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,6 +21,7 @@
         <option value="HTML File" />
         <option value="XSLT Stylesheet" />
         <option value="CSS File" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -31,7 +33,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/LearnCodersX2020/MasterCSS/25-demo-zingmp3/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -69,6 +71,9 @@
       <workItem from="1584680748545" duration="81000" />
       <workItem from="1584709249048" duration="49000" />
       <workItem from="1584927644069" duration="13634000" />
+      <workItem from="1584943094362" duration="8000" />
+      <workItem from="1585062424258" duration="108000" />
+      <workItem from="1585101077534" duration="5252000" />
     </task>
     <servers />
   </component>
